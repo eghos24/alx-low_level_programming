@@ -1,7 +1,10 @@
 #include<stdio.h>
 /**
- *  main - main block returns 0
- *  return :0
+ *  main - prints the string in the put funtion
+ *
+ *  discription : using the main function
+ *  this program prints "Programming is like building a multilingual puzzle
+ *  Return:0
 */
 int main(void)
 {
