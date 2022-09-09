@@ -1,6 +1,5 @@
 #include<stdio.h>
 /**
- *  This program prints a message using puts funtion
  *  main - main block
  *  return:0
 */
