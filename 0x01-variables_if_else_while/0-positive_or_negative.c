@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints whether the variable is positive or negative
- * srand - uses time to generate a random number
- * @n : contains the number
+ * main - print the number stored in the variable n is positive or negative.
+ *
  * Return : 0
 */
 int main(void)
