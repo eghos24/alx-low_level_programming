@@ -8,6 +8,7 @@ int main(void)
 		int n;
 		int lastDigit;
 		char *lastString;
+
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 		lastDigit = n % 10;
