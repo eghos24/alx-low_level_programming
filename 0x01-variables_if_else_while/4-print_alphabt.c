@@ -1,18 +1,20 @@
 #include <stdio.h>
-
-
-
-
-
-int main()
+/**
+ * main - prints all small letters except for q,e
+ *
+ * Return: Always(success)
+*/
+int main(void)
 {
 	int ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if ((ch == 'q')||(ch == 'e')){
-			
+		if ((ch == 'q') || (ch == 'e'))
+		{
 		}
-		else {
+		else
+		{
 			putchar(ch);
 		}
 

@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - prints last strings
+ *
+ * Return: Always (Success)
+*/
 int main(void)
 {
 		int n;
