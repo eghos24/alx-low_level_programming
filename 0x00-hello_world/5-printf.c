@@ -3,11 +3,11 @@
  *  main - prints the string in the put funtion
  *
  *  discription : using the main functioon
- *  this program prints "Programming is like building a multilingual puzzle"
+ *  this program prints with proper grammar, but the outcome is a piece of art,
  *  Return:Always(success)
 */
 int main(void)
 {
-		puts("\"Programming is like building a multilingual puzzle");
+		printf("with proper grammar, but the outcome is a piece of art ,");
 		return (0);
 }
