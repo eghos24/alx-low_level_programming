@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int n, m, o:
+	int n, m, o;
 
 	for (n = '0'; n <= '7'; n++)
 	{
@@ -14,18 +14,15 @@ int main(void)
 		{
 			for (o = '2'; o <= '9'; o++)
 			{
-				if ((n != m) && (n < m))
+				if ((n < m) && (m < o))
 				{
-					if ((m != o) && (m < o))
+					putchar(n);
+					putchar(m);
+					putchar(o);
+					if (n < '7')
 					{
-						putchar(n);
-						putchar(m);
-						putchar(o);
-						if (n < '7')
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
