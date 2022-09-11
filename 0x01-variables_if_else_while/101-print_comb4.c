@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int n, m, o; 
+	int n, m, o:
 
 	for (n = '0'; n <= '7'; n++)
 	{
@@ -16,7 +16,7 @@ int main(void)
 			{
 				if ((n != m) && (n < m))
 				{
-					if ((m != o)&&(m < o))
+					if ((m != o) && (m < o))
 					{
 						putchar(n);
 						putchar(m);
