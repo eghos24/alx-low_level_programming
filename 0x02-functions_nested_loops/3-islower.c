@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _islower(int c) - Entry point
+ * _islower - Entry point
  * Description: Checks if a charater is small letter.
  *@c: the integer value it recieves
  * Return: 1 if true, 0 if false.
