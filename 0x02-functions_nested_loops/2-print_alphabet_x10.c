@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - enty point
+ * print_alphabet_x10 - enty point
  * Description: a function that prints the alphabet in lower letter 10 times
  * Return : void
  */
