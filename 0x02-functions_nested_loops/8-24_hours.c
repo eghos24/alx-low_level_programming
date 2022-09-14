@@ -6,8 +6,8 @@
  * Return: void
  */
 void jack_bauer(void)
-{int hours_tens, hours_ones, minutes_tens, minutes_ones;
 {
+	int hours_tens, hours_ones, minutes_tens, minutes_ones;
 
 	for (hours_tens = 0; hours_tens <= 2 ; hours_tens++)
 	{
