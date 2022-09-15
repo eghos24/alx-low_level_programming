@@ -6,7 +6,7 @@
  *    * Return: void
  *     */
 
-void times_tab;lable(void)
+void times_table(void)
 {
 	int row, column, product, tens, ones;
 
@@ -22,7 +22,7 @@ void times_tab;lable(void)
 			{
 				_putchar('0');
 			}
-			elseif (product < 10)
+			else if (product < 10)
 			{
 				_putchar(',');
 				_putchar(' ');
