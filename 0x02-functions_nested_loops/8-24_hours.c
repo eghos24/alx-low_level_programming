@@ -10,7 +10,7 @@ void jack_bauer(void)
 	int hours_tens, hours_ones, minutes_tens, minutes_ones, max_hour;
 
 	for (hours_tens = '0'; hours_tens <= '2' ; hours_tens++)
-	{	
+	{
 		if (hours_tens == '2')
 		{
 			max_hour = '3';
