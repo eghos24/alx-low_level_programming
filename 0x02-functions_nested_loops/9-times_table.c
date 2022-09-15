@@ -1,35 +1,42 @@
 #include "main.h"
 
 /**
- * times_table - multiplication of 9 in matrix form
- * Description: prints in matrix form
- * Return: void
-*/
-void times_table(void)
+ *  * times_table - prints the 9 times table
+ *   * Description: prints the 9 times table
+ *    * Return: void
+ *     */
+
+void times_tab;lable(void)
 {
-	int r;
-       	int c;
-	int p;
-	int p_tens;
-	int p_ones;
+	int row, column, product, tens, ones;
 
-
-	for (r = 0; r <= 9; r++)
+	for (row = 0; row <= 9; row++)
 	{
-		for (c = 0; c <= 9; c++)
-		{		
-			p = r * c;
-			if (p <= 9)
+		for (column = 0; column <= 9; column++)
+		{
+			product = row * column;
+			tens = product / 10;
+			ones = product % 10;
+
+			if (column == 0)
 			{
-				_putchar(p);
+				_putchar('0');
+			}
+			elseif (product < 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(ones+'0');
 			}
 			else
 			{
-				p_tens = p/10;
-				p_ones = p%10;
-				_putchar(p_tens);
-				_putchar(p_ones);
-			}	
+				_putchar(',');
+				_putchar(' ');
+				_putchar(tens + '0');
+				_putchar(ones + '0');
+			}
 		}
+		_putchar('\n');
 	}
 }
