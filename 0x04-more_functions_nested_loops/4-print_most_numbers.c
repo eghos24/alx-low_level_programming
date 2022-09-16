@@ -14,8 +14,7 @@ void print_numbers(void)
 		{
 			_putchar(c + '0');
 		}
-		c++;
-		
+	c++;
 	}
 	_putchar('\n');
 }
