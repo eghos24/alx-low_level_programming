@@ -27,7 +27,10 @@ int main(void)
 		{
 			printf("%d", c);
 		}
-		printf(" ");
+		if (c < 100)
+		{
+			printf(" ");
+		}
 		c++;
 	}
 	printf("\n");
