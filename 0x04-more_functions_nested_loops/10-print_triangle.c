@@ -19,7 +19,7 @@ void print_triangle(int size)
 		while (column < size)
 		{
 			row = 0;
-			while (row < ((size - column) -1 ))
+			while (row < ((size - column) - 1))
 			{
 				_putchar(32);
 				row++;
