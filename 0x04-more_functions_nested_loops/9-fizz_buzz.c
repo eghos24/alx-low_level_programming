@@ -11,9 +11,9 @@ int main(void)
 
 	while (c <= 100)
 	{
-		if ((c % 3 == 0) && (c % 5 == 0))
+		if (c % 3 == 0 && c % 5 == 0)
 		{
-			printf("Fizz Buzz");
+			printf("FizzBuzz");
 		}
 		else if (c % 3 == 0)
 		{
