@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - prints
- * @str: inputs
+ * @istr: inputs
  *
  * Return : void
  */
