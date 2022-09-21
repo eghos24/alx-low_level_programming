@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - print 
+ * print_rev - print
  * @s: input string
  *
  * Return; Void
@@ -17,8 +17,7 @@ void print_rev(char *s)
 	while (j >= 0)
 	{
 		_putchar (s[j]);
-		j --;
+		j--;
 	}
-	
 	_putchar('\n');
 }
