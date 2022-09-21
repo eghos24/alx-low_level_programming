@@ -1,20 +1,21 @@
 #include "main.h"
 /**
  * puts_half - print
- * @*str: input string
+ * @str: input string
  *
  * Return; Void
  */
 void puts_half(char *str)
 {
-        int i;
+	int i;
 	int length;
 	int half;
-	for (length = 0; str[length] != '\0' ; length ++)
+
+	for (length = 0; str[length] != '\0' ; length++)
 	{
 	}
 	half = length / 2;
-	if ( length % 2 != 0)
+	if( length % 2 != 0)
 	{
 		i = (((length - 1) / 2) + 1);
 	}
@@ -27,5 +28,5 @@ void puts_half(char *str)
 		_putchar(str[i]);
 		i++;
 	}
-        _putchar('\n');
+	_putchar('\n');
 }
