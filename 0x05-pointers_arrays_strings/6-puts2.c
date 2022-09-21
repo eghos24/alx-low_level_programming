@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * puts2 - print
- * @*str: input string
+ * @str: input string
  *
  * Return; Void
  */
 void puts2(char *str)
 {
-        int i;
+	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
@@ -16,5 +16,5 @@ void puts2(char *str)
 			_putchar(str[i]);
 		}
 	}
-        _putchar('\n');
+	_putchar('\n');
 }
