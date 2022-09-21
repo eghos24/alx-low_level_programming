@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _string - prints reverse
+ * rev_string - prints reverse
  * @s: input
  * Return: void
  */
