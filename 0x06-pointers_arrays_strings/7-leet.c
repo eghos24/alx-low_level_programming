@@ -21,7 +21,7 @@ char *leet(char *str)
 		j = 0;
 		while (j <= 10)
 		{
-			if(str[i] == alph[j])
+			if (str[i] == alph[j])
 			{
 				str[i] = nalph[j];
 			}
