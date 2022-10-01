@@ -6,19 +6,18 @@
  * main - adds positive numbers.
  * @argc: counts number of arguments
  * @argv: arguments
- * Return: zero (success)
- * Return: one (error)
+ * Return: zero (success) one (error)
  */
 
 int main(int argc, char *argv[])
-{	
+{
 	int i = 1;
 	int sum = 0;
 	int n;
 
-	if(argc < 1)
+	if (argc < 1)
 	{
-		printf ("0\n");
+		printf("0\n");
 	}
 	while (i < argc)
 	{
