@@ -5,13 +5,12 @@
  * main - print the result of the multiplication
  * @argc: counts number of arguments
  * @argv: arguments
- * Return: zero (success)
- * Return: one (error)
+ * Return: zero (success) one (error)
  */
 
 int main(int argc, char *argv[])
 {
-	if (argc < 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
