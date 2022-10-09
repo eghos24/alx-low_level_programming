@@ -22,7 +22,7 @@ char *argstostr(int ac, char **av)
 			count++;
 		}
 	}
-	size = count ;
+	size = count - 4;
 	ans = malloc(sizeof(char) * size);
 	if (ans == 0)
 	{
