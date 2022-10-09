@@ -16,10 +16,19 @@ char *create_array(unsigned int size, char c)
 	}
 	/*Define values with malloc*/
 	array = malloc(sizeof(char) * size);
-	while (i < size) /*while loop for create array*/
+
+	/*to handle malloc return*/
+	if (array == 0)
 	{
-		array[i] = c;
-		i++;
+		return (NULL);
+	}
+	else 
+	{
+		while (i < size) /*while loop for create array*/
+		{
+			array[i] = c;
+			i++;
+		}
 	}
 	return (array);
 }
