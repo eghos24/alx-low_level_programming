@@ -2,14 +2,13 @@
 #include "dog.h"
 /**
  * print_dog -  print dog
- * @struct dog *d: input
+ * @d: input
  * Return: viod
  */
 void print_dog(struct dog *d)
 {
 	if (d)
 	{
-	
 		if (d->name == NULL)
 		{
 			printf("Name: (nil)\n");
