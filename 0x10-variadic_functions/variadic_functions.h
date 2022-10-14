@@ -1,4 +1,4 @@
-#ifndef variadi_h
+#ifndef variadic_h
 #define variadic_h
 #include <unistd.h>
 #include <stdarg.h>
